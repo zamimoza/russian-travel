@@ -3,7 +3,7 @@
     line-height: 58px;
     font-weight: 900;
     font-weight: normal;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     width: 690px;
     height: 58px;
     margin: 0;
@@ -14,5 +14,6 @@
     .intro__title {
         font-size: 32px;
         line-height: 35px;
+        max-width: calc(100% - 32px);
     }
 } 

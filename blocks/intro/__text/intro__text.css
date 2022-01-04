@@ -4,7 +4,14 @@
     font-size: 16px;
     line-height: 26.08px;
     font-weight: 400;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     width: 690px;
     height: 208px;
 }
+
+@media all and (max-width: 767px) {
+    .intro__text {
+        max-width: calc(100% - 32px);
+        height: fit-content;
+    }
+} 
