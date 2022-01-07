@@ -21,7 +21,6 @@
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        gap: 16px;
         margin-top: 88px;
         margin-bottom: 88px;
     }
@@ -31,6 +30,11 @@
     .photo-grid {
         grid-template-columns: repeat(4, calc((100% - 48px) / 4));
         grid-template-rows: repeat(2, 1fr);
+    }
+} 
+
+@media all and (min-width: 768px) {
+    .photo-grid {
         gap: 16px;
     }
 } 
