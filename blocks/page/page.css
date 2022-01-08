@@ -9,6 +9,7 @@
     font-family: 'Inter', 'Arial', sans-serif;
     max-width: 1280px;
     min-width: 320px;
+    overflow-x: hidden;
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
@@ -24,5 +25,3 @@
         padding-right: 24px;
     }
 } 
-
-
